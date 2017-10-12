@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 23, 2014, 3:22:11 PM
+    Author     : arun
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2014, 11:26:54 AM
+    Author     : arun
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+.profile
+{
+    font-family: 'Lato', 'sans-serif';
+    margin:auto;
+}
+figure{
+margin-top:10px;
+}
+.text-center{
+text-align:center;
+}
+.text-right{
+text-align:right;
+}
+.text-left{
+text-align:left;
+}
+.margin-top{
+margin-top:1px;
+}
+.divider{
+color:lightgray;
+background:lightgray;
+}
+
+
+.profile strong,span,div{
+   text-transform: initial;
+}
+#user-status{
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 13, 2014, 10:35:31 AM
+    Author     : arun
+*/
+
+strong,span{
+   text-transform: capitalize;
+}
+@media (min-width: 1200px){
+     #column2{
+        border-left:1px solid lightgray;
+    }
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+    #column1{
+         border-bottom:none;
+    }
+}
+@media screen and (min-width: 767px) {
+    #column2{
+        border-left:none;
+    }
+    #column1{
+        border-bottom:1px solid lightgray;
+    }
+}
+@media screen and (min-width: 480px) {
+    #column2{
+        border-left:none;
+    }
+}
+@media screen and (min-width: 380px) {
+    #column2{
+        border-left:none;
+        
+    }
+    #column1{
+        border-bottom:1px solid lightgray;
+    }
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+}
+@media (max-width: 480px) and (orientation: landscape) {
+    #column1{
+        border-left:1px solid lightgray;
+    }
+    #column2{
+       border-left:none; 
+    }  
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #column2{
+        border-left:none;
+    }
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #column2{
+        border-left:1px solid lightgray;
+    }
+    #column1{
+         border-bottom:none;
+    }
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+}
+@media (min-width: 1199px) and (max-width: 3000px) {
+    #column2{
+        border-left:1px solid lightgray;
+    } 
+    #column1{
+         border-bottom:none;
+    }
+    #column3{
+        border-bottom:1px solid lightgray;
+    }
+}
